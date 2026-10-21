@@ -85,15 +85,15 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
+        "dx.doi.org:443,mvnrepository.com:443,cfip.1323123.xyz:443,time.is:443,cdnjs.loli.net:443,www.redboxtools.com:443,db-ip.com:443,"
+        "dogechain.info:443,www.revechat.com:4433,www.galgamex.net:443,ping.pe:443,api2-ide.imgnxa.com:443,help.kolet.com:443,"
+        "noc.one:443,codexradar.com:443,builtbybuffalo.com:443,duggal.com:443,www.whatismyip.com:443:443,www.ventusky.com:443",
     ).split(",")
     if h.strip()
 ]
 
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
-OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443")
+OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/cu?port=443")
 
 NODES_URL = os.environ.get("NODES_URL", "https://Jimmy102836.github.io/gate/nodes.txt")
 
